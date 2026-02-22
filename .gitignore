@@ -1,0 +1,26 @@
+# Dependencias
+node_modules/
+
+# Compilación
+dist/
+
+# Mapas de fuente (opcional, descomenta si no quieres versionar)
+# *.js.map
+
+# Variables de entorno
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
