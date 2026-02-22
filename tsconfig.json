@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    /* Versión del lenguaje */
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+
+    /* Rutas */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Verificación estricta (recomendado para aprender buenas prácticas) */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
+    /* Verificaciones adicionales */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Interoperabilidad de módulos */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+
+    /* Mapas de fuente para depuración */
+    "sourceMap": true,
+    "declaration": true,
+
+    /* Otras opciones */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
+}
