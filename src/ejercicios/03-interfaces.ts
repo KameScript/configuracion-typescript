@@ -91,7 +91,7 @@ function primerElemento<T>(arreglo: T[]): T | undefined {
   return arreglo[0];
 }
 
-export function ejemploInterfaces(): void {
+export function ejercicioInterfaces(): void {
   const config: Configuracion = {
     host: 'localhost',
     puerto: 3000,

@@ -10,7 +10,7 @@ Proyecto base para aprender los fundamentos de TypeScript siguiendo las mejores 
 configuracion-typescript/
 ├── src/
 │   ├── index.ts                    # Punto de entrada principal
-│   └── ejemplos/
+│   └── ejercicios/
 │       ├── 01-tipos-basicos.ts     # Tipos primitivos, arrays, enums, union types
 │       ├── 02-funciones.ts         # Funciones, parámetros, sobrecarga
 │       └── 03-interfaces.ts        # Interfaces, clases, herencia, genéricos
@@ -144,14 +144,14 @@ Luego se editó el `tsconfig.json` generado para activar las opciones más útil
 ### 7. Crear la estructura de carpetas y archivos fuente
 
 ```bash
-mkdir -p src/ejemplos
+mkdir -p src/ejercicios
 touch src/index.ts
-touch src/ejemplos/01-tipos-basicos.ts
-touch src/ejemplos/02-funciones.ts
-touch src/ejemplos/03-interfaces.ts
+touch src/ejercicios/01-tipos-basicos.ts
+touch src/ejercicios/02-funciones.ts
+touch src/ejercicios/03-interfaces.ts
 ```
 
-Cada archivo de ejemplo cubre un tema fundamental de TypeScript con comentarios explicativos.
+Cada archivo de ejercicio cubre un tema fundamental de TypeScript con comentarios explicativos.
 
 ---
 
@@ -195,7 +195,7 @@ npm run lint
 
 ---
 
-## 📚 Temas cubiertos en los ejemplos
+## 📚 Temas cubiertos en los ejercicios
 
 ### `01-tipos-basicos.ts`
 - Tipos primitivos: `string`, `number`, `boolean`
@@ -241,7 +241,7 @@ npm run lint
 
 ## 💡 Próximos pasos sugeridos
 
-Una vez que domines los ejemplos incluidos, puedes continuar con:
+Una vez que domines los ejercicios incluidos, puedes continuar con:
 
 1. **Genéricos avanzados** — restricciones con `extends`, tipos condicionales
 2. **Utility Types** — `Partial<T>`, `Required<T>`, `Pick<T>`, `Omit<T>`, `Record<K,V>`

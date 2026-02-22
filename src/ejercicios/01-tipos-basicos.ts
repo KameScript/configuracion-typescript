@@ -5,7 +5,7 @@
  * Esto ayuda a detectar errores en tiempo de desarrollo.
  */
 
-export function ejemploTiposBasicos(): void {
+export function ejercicioTiposBasicos(): void {
   // --- Tipos primitivos ---
   const nombre: string = 'Ana';
   const edad: number = 28;

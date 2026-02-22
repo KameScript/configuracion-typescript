@@ -46,7 +46,7 @@ const dividir: Operacion = (a, b) => {
   return a / b;
 };
 
-export function ejemploFunciones(): void {
+export function ejercicioFunciones(): void {
   console.log(`sumar(3, 4) = ${sumar(3, 4)}`);
   console.log(`saludar('Carlos') = ${saludar('Carlos')}`);
   console.log(`saludar('Carlos', 'Buenas') = ${saludar('Carlos', 'Buenas')}`);
